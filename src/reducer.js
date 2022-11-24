@@ -14,7 +14,7 @@ const reducer = (state, action) => {
         ...state,
         active: action.active,
       };
-    case "ACTIVE_MOVIE":
+    case "ACTIVE_WATCH":
       return {
         ...state,
         active: action.active,

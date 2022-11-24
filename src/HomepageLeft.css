@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.homepageLeft {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.filler {
+  height: 15px;
+}
+
+.homepageLeft__bookmarks {
+  width: 300px;
+  height: 420px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.homepafeLeft__seeMoreButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.homepafeLeft__seeMoreButtonImage {
+  object-fit: contain;
+  width: 20px;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-left: 17px;
+}
+
+.homepafeLeft__seeMoreButton:hover {
+  background-color: #dadde1;
+  transition-duration: 100ms;
+}
+
+.grayBar {
+  margin-left: 3%;
+  width: 95%;
+  height: 2px;
+  background-color: #ced0d4;
+}
+
+.shortcutsText {
+  margin-top: 15px;
+  margin-left: 3%;
+  margin-bottom: 10px;
+}

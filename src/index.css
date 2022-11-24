@@ -1,6 +1,14 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(fonts/HelveticaNeue\ Light.ttf);
+}
+
 body {
   background-color: #f0f2f5;
   margin: 0;
+  font-family: HelveticaNeue;
+  font-family: HelveticaNeue;
+  font-weight: 700;
 }
 
 code {

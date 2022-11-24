@@ -14,44 +14,9 @@ import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import { useStateValue } from "./StateProvider";
+import { Link } from "react-router-dom";
 
-// import { Link } from "react-router-dom";
-
-function Header() {
-  const [{ active }, dispatch] = useStateValue();
-
-  const activeHome = () => {
-    dispatch({
-      type: "ACTIVE_HOME",
-      active: "home",
-    });
-  };
-  const activePages = () => {
-    dispatch({
-      type: "ACTIVE_PAGES",
-      active: "pages",
-    });
-  };
-  const activeMovie = () => {
-    dispatch({
-      type: "ACTIVE_MOVIE",
-      active: "movie",
-    });
-  };
-  const activeStore = () => {
-    dispatch({
-      type: "ACTIVE_STORE",
-      active: "store",
-    });
-  };
-  const activeGroups = () => {
-    dispatch({
-      type: "ACTIVE_GROUPS",
-      active: "groups",
-    });
-  };
-
+function Header({ active }) {
   return (
     <div className="header">
       {/* Left side of the header */}
@@ -71,76 +36,86 @@ function Header() {
       </div>
       {/* Middle part of the header */}
       <div className="header__middle">
-        {active === "home" ? (
-          <div className="header__middleActive">
-            <HomeIcon
-              color="primary"
-              fontSize="large"
-              className="header__middleIconActive"
-            />
-            <div className="header__middleActiveBar"></div>
-          </div>
-        ) : (
-          <div className="header__middleIcon">
-            <HomeOutlinedIcon fontSize="large" onClick={activeHome} />
-          </div>
-        )}
-        {active === "pages" ? (
-          <div className="header__middleActive">
-            <PagesIcon
-              color="primary"
-              fontSize="large"
-              className="header__middleIconActive"
-            />
-            <div className="header__middleActiveBar"></div>
-          </div>
-        ) : (
-          <div className="header__middleIcon" onClick={activePages}>
-            <PagesOutlinedIcon fontSize="large" />
-          </div>
-        )}
-        {active === "movie" ? (
-          <div className="header__middleActive">
-            <MovieIcon
-              color="primary"
-              fontSize="large"
-              className="header__middleIconActive"
-            />
-            <div className="header__middleActiveBar"></div>
-          </div>
-        ) : (
-          <div className="header__middleIcon">
-            <MovieOutlinedIcon fontSize="large" onClick={activeMovie} />
-          </div>
-        )}
-        {active === "store" ? (
-          <div className="header__middleActive">
-            <StoreIcon
-              color="primary"
-              fontSize="large"
-              className="header__middleIconActive"
-            />
-            <div className="header__middleActiveBar"></div>
-          </div>
-        ) : (
-          <div className="header__middleIcon">
-            <StoreOutlinedIcon fontSize="large" onClick={activeStore} />
-          </div>
-        )}
-        {active === "groups" ? (
-          <div className="header__middleActive">
-            <GroupsIcon
-              color="primary"
-              fontSize="large"
-              className="header__middleIconActive"
-            />
-            <div className="header__middleActiveBar"></div>
-          </div>
-        ) : (
-          <div className="header__middleIcon">
-            <GroupsOutlinedIcon fontSize="large" onClick={activeGroups} />
-          </div>
-        )}
+        <Link className="link" to="/">
+          {active === "home" ? (
+            <div className="header__middleActive">
+              <HomeIcon
+                color="primary"
+                fontSize="large"
+                className="header__middleIconActive"
+              />
+              <div className="header__middleActiveBar"></div>
+            </div>
+          ) : (
+            <div className="header__middleIcon">
+              <HomeOutlinedIcon fontSize="large" />
+            </div>
+          )}
+        </Link>
+        <Link className="link" to="pages">
+          {active === "pages" ? (
+            <div className="header__middleActive">
+              <PagesIcon
+                color="primary"
+                fontSize="large"
+                className="header__middleIconActive"
+              />
+              <div className="header__middleActiveBar"></div>
+            </div>
+          ) : (
+            <div className="header__middleIcon">
+              <PagesOutlinedIcon fontSize="large" />
+            </div>
+          )}
+        </Link>
+        <Link className="link" to="watch">
+          {active === "watch" ? (
+            <div className="header__middleActive">
+              <MovieIcon
+                color="primary"
+                fontSize="large"
+                className="header__middleIconActive"
+              />
+              <div className="header__middleActiveBar"></div>
+            </div>
+          ) : (
+            <div className="header__middleIcon">
+              <MovieOutlinedIcon fontSize="large" />
+            </div>
+          )}
+        </Link>
+        <Link className="link" to="store">
+          {active === "store" ? (
+            <div className="header__middleActive">
+              <StoreIcon
+                color="primary"
+                fontSize="large"
+                className="header__middleIconActive"
+              />
+              <div className="header__middleActiveBar"></div>
+            </div>
+          ) : (
+            <div className="header__middleIcon">
+              <StoreOutlinedIcon fontSize="large" />
+            </div>
+          )}
+        </Link>
+        <Link className="link" to="groups">
+          {active === "groups" ? (
+            <div className="header__middleActive">
+              <GroupsIcon
+                color="primary"
+                fontSize="large"
+                className="header__middleIconActive"
+              />
+              <div className="header__middleActiveBar"></div>
+            </div>
+          ) : (
+            <div className="header__middleIcon">
+              <GroupsOutlinedIcon fontSize="large" />
+            </div>
+          )}
+        </Link>
       </div>
       {/* Right side of the header */}
       <div className="header__right">
@@ -152,6 +127,13 @@ function Header() {
         </div>
         <div className="header__rightIcon">
           <NotificationsIcon fontSize="medium" />
+        </div>
+        <div className="header__rightIcon">
+          <img
+            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"
+            alt=""
+            className="header__rightProfilePic"
+          ></img>
         </div>
       </div>
     </div>
