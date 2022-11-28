@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomepageLeft from "./HomepageLeft";
+import HomepageRight from "./HomepageRight";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route exact path="/">
           <Header active={"home"} />
           <HomepageLeft />
+          <HomepageRight />
         </Route>
         <Route exact path="/pages">
           <Header active={"pages"} />

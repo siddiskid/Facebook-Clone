@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.contact:hover {
+  background-color: #dadde1;
+  transition-duration: 100ms;
+}
+
+.contact__icon {
+  object-fit: contain;
+  width: 37px;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
