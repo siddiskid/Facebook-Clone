@@ -1,14 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./StoriesReelsRooms.css";
-import Story from "./Story";
+import Stories from "./Stories";
+import Reels from "./Reels";
+import Rooms from "./Rooms";
 
 function StoriesReelsRooms() {
   const [active, setActive] = useState("stories");
-  const scrollRef = useRef();
-
-  const scroll = (toScroll) => {
-    scrollRef.current.scrollLeft += toScroll;
-  };
 
   return (
     <div className="storiesreelsrooms">
@@ -81,42 +78,16 @@ function StoriesReelsRooms() {
           </div>
         )}
       </div>
-      <div ref={scrollRef} className="storiesreelsrooms__content">
-        <div className="filler"> </div>
-        <button className="scrollButtonLeft" onClick={() => scroll(-300)}>
-          <img
-            className="scrollImageLeft"
-            src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-gauche-gris.png"
-            alt=""
-          ></img>
-        </button>
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-        <Story className="story" />
-
-        <button className="scrollButtonRight" onClick={() => scroll(300)}>
-          <img
-            className="scrollImageRight"
-            src="https://icones.pro/wp-content/uploads/2021/06/symbole-fleche-droite-grise.png"
-            alt=""
-          ></img>
-        </button>
-        <div className="filler"> </div>
+      <div className="storiesreelsrooms__content">
+        {/* {stories.map((item) => (
+          <Panel
+            profilePic={item.profilePic}
+            imagePic={oncontextmenu.imagePic}
+          />
+        ))} */}
+        {active === "stories" ? <Stories /> : <div></div>}
+        {active === "reels" ? <Reels /> : <div></div>}
+        {active === "rooms" ? <Rooms /> : <div></div>}
       </div>
     </div>
   );

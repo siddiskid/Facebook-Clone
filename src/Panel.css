@@ -1,11 +1,12 @@
-.story {
+.panel {
   display: grid;
   width: 120px;
   height: 220px;
   border-radius: 20px;
+  margin: 9.5px 0px 9.5px 10px;
 }
 
-.story__image {
+.panel__image {
   width: 120px;
   height: 220px;
   border-radius: 20px;
@@ -13,7 +14,7 @@
   grid-area: 1/2;
 }
 
-.story__profile {
+.panel__profile {
   object-fit: contain;
   width: 40px;
   border-radius: 100px;
@@ -23,11 +24,11 @@
   margin-left: 15px;
 }
 
-.story:hover {
+.panel:hover {
   background-color: black;
   cursor: pointer;
 }
 
-.story__image:hover {
+.panel__image:hover {
   opacity: 0.8;
 }
