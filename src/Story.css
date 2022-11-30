@@ -1,0 +1,33 @@
+.story {
+  display: grid;
+  width: 120px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.story__image {
+  width: 120px;
+  height: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+  grid-area: 1/2;
+}
+
+.story__profile {
+  object-fit: contain;
+  width: 40px;
+  border-radius: 100px;
+  z-index: 1000;
+  grid-area: 1/2;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.story:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.story__image:hover {
+  opacity: 0.8;
+}

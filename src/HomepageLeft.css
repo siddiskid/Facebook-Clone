@@ -16,7 +16,7 @@
 }
 
 .homepageLeft {
-  width: 300px;
+  width: 20vw;
   height: 89vh;
   margin-right: 0;
   margin-left: 10px;
@@ -29,7 +29,7 @@
 }
 
 .homepageLeft__bookmarks {
-  width: 300px;
+  width: 100%;
   margin-bottom: 10px;
 }
 
