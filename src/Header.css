@@ -70,6 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100px;
   margin-top: 5px;
   height: 55.25px;
@@ -94,14 +95,16 @@
 
 .header__middleIconActive {
   margin-top: 16px;
-  margin-bottom: 11px;
+  /* margin-bottom: 11px; */
 }
 
 .header__middleActiveBar {
+  margin-top: 11px;
   width: 100%;
   height: 3px;
   border-radius: 1px;
   background-color: #1976d2;
+  z-index: 100;
 }
 
 .header__right {
@@ -132,4 +135,81 @@
   object-fit: contain;
   width: 40px;
   border-radius: 20px;
+}
+
+.iconHover {
+  background-color: #373737;
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.hoverFont {
+  color: white;
+}
+
+.homeIconWrapper:hover .homeIcon {
+  margin-top: 43px;
+}
+
+.homeIconHover {
+  display: none;
+  margin-top: 18px;
+}
+
+.homeIconWrapper:hover .homeIconHover {
+  display: block;
+}
+
+.pagesIconWrapper:hover .pagesIcon {
+  margin-top: 43px;
+}
+
+.pagesIconHover {
+  display: none;
+  margin-top: 18px;
+}
+
+.pagesIconWrapper:hover .pagesIconHover {
+  display: block;
+}
+
+.movieIconWrapper:hover .movieIcon {
+  margin-top: 43px;
+}
+
+.movieIconHover {
+  display: none;
+  margin-top: 18px;
+}
+
+.movieIconWrapper:hover .movieIconHover {
+  display: block;
+}
+
+.storeIconWrapper:hover .storeIcon {
+  margin-top: 43px;
+}
+
+.storeIconHover {
+  display: none;
+  margin-top: 18px;
+}
+
+.storeIconWrapper:hover .storeIconHover {
+  display: block;
+}
+
+.groupsIconWrapper:hover .groupsIcon {
+  margin-top: 43px;
+}
+
+.groupsIconHover {
+  display: none;
+  margin-top: 18px;
+}
+
+.groupsIconWrapper:hover .groupsIconHover {
+  display: block;
 }

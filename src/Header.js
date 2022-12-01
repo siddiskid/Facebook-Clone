@@ -42,13 +42,16 @@ function Header({ active }) {
               <HomeIcon
                 color="primary"
                 fontSize="large"
-                className="header__middleIconActive"
+                className="header__middleIconActive "
               />
               <div className="header__middleActiveBar"></div>
             </div>
           ) : (
-            <div className="header__middleIcon">
-              <HomeOutlinedIcon fontSize="large" />
+            <div className="header__middleIcon homeIconWrapper">
+              <HomeOutlinedIcon fontSize="large" className="homeIcon" />
+              <div className="iconHover homeIconHover">
+                <span className="hoverFont">Home</span>
+              </div>
             </div>
           )}
         </Link>
@@ -63,8 +66,11 @@ function Header({ active }) {
               <div className="header__middleActiveBar"></div>
             </div>
           ) : (
-            <div className="header__middleIcon">
-              <PagesOutlinedIcon fontSize="large" />
+            <div className="header__middleIcon pagesIconWrapper">
+              <PagesOutlinedIcon fontSize="large" className="pagesIcon" />
+              <div className="iconHover pagesIconHover">
+                <span className="hoverFont">Home</span>
+              </div>
             </div>
           )}
         </Link>
@@ -79,8 +85,11 @@ function Header({ active }) {
               <div className="header__middleActiveBar"></div>
             </div>
           ) : (
-            <div className="header__middleIcon">
-              <MovieOutlinedIcon fontSize="large" />
+            <div className="header__middleIcon movieIconWrapper">
+              <MovieOutlinedIcon fontSize="large" className="movieIcon" />
+              <div className="iconHover movieIconHover">
+                <span className="hoverFont">Home</span>
+              </div>
             </div>
           )}
         </Link>
@@ -95,8 +104,11 @@ function Header({ active }) {
               <div className="header__middleActiveBar"></div>
             </div>
           ) : (
-            <div className="header__middleIcon">
-              <StoreOutlinedIcon fontSize="large" />
+            <div className="header__middleIcon storeIconWrapper">
+              <StoreOutlinedIcon fontSize="large" className="storeIcon" />
+              <div className="iconHover storeIconHover">
+                <span className="hoverFont">Home</span>
+              </div>
             </div>
           )}
         </Link>
@@ -111,8 +123,11 @@ function Header({ active }) {
               <div className="header__middleActiveBar"></div>
             </div>
           ) : (
-            <div className="header__middleIcon">
-              <GroupsOutlinedIcon fontSize="large" />
+            <div className="header__middleIcon groupsIconWrapper">
+              <GroupsOutlinedIcon fontSize="large" className="groupsIcon" />
+              <div className="iconHover groupsIconHover">
+                <span className="hoverFont">Home</span>
+              </div>
             </div>
           )}
         </Link>

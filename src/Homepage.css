@@ -3,3 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.test {
+  position: absolute;
+  top: 70px;
+  left: 35vw;
+}
