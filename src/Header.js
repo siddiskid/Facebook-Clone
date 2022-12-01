@@ -69,7 +69,7 @@ function Header({ active }) {
             <div className="header__middleIcon pagesIconWrapper">
               <PagesOutlinedIcon fontSize="large" className="pagesIcon" />
               <div className="iconHover pagesIconHover">
-                <span className="hoverFont">Home</span>
+                <span className="hoverFont">Pages</span>
               </div>
             </div>
           )}
@@ -88,7 +88,7 @@ function Header({ active }) {
             <div className="header__middleIcon movieIconWrapper">
               <MovieOutlinedIcon fontSize="large" className="movieIcon" />
               <div className="iconHover movieIconHover">
-                <span className="hoverFont">Home</span>
+                <span className="hoverFont">Watch</span>
               </div>
             </div>
           )}
@@ -107,7 +107,7 @@ function Header({ active }) {
             <div className="header__middleIcon storeIconWrapper">
               <StoreOutlinedIcon fontSize="large" className="storeIcon" />
               <div className="iconHover storeIconHover">
-                <span className="hoverFont">Home</span>
+                <span className="hoverFont">Marketplace</span>
               </div>
             </div>
           )}
@@ -126,7 +126,7 @@ function Header({ active }) {
             <div className="header__middleIcon groupsIconWrapper">
               <GroupsOutlinedIcon fontSize="large" className="groupsIcon" />
               <div className="iconHover groupsIconHover">
-                <span className="hoverFont">Home</span>
+                <span className="hoverFont">Groups</span>
               </div>
             </div>
           )}

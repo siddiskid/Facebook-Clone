@@ -1,11 +1,12 @@
 .whatsonyourmind {
-  margin-top: 10px;
+  margin-top: 15px;
   width: 95%;
   height: 150px;
   background-color: white;
   border-radius: 10px;
   padding-left: 2.5%;
   padding-right: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .inputLogo {
@@ -70,4 +71,10 @@
 .whatsonyourmind__icon:hover {
   background-color: #f0f2f5;
   cursor: pointer;
+}
+
+.whatsonyourmind__iconImage {
+  object-fit: contain;
+  width: 30px;
+  margin-right: 5px;
 }

@@ -15,12 +15,27 @@ function WhatsOnYourMind({ profilePic, name }) {
       <div className="graySlab"></div>
       <div className="whatsonyourmind__icons">
         <div className="whatsonyourmind__icon">
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/live-video-1133872.png"
+            alt=""
+            className="whatsonyourmind__iconImage"
+          ></img>
           <span className="text">Live video</span>
         </div>
         <div className="whatsonyourmind__icon">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/126/126806.png"
+            alt=""
+            className="whatsonyourmind__iconImage"
+          ></img>
           <span className="text"> Photo/video </span>
         </div>
         <div className="whatsonyourmind__icon">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3480/3480315.png"
+            alt=""
+            className="whatsonyourmind__iconImage"
+          ></img>
           <span className="text"> Feeling/activity </span>
         </div>
       </div>
