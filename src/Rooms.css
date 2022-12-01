@@ -1,0 +1,64 @@
+.rooms {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.dummy {
+  width: 15px;
+}
+
+.scrollImageLeft {
+  object-fit: contain;
+  width: 30px;
+  margin-right: 3px;
+}
+
+.scrollImageRight {
+  object-fit: contain;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.scrollButtonLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 225px;
+  left: 33vw;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  border: none;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.scrollButtonRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 225px;
+  right: 32.5vw;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  border: none;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.scrollButtonLeft:hover {
+  background-color: #f5f6f7;
+  cursor: pointer;
+}
+
+.scrollButtonRight:hover {
+  background-color: #f5f6f7;
+  cursor: pointer;
+}

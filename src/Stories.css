@@ -3,6 +3,8 @@
   flex-direction: row;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .dummy {

@@ -1,0 +1,73 @@
+.whatsonyourmind {
+  margin-top: 10px;
+  width: 95%;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.inputLogo {
+  object-fit: contain;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.whatsonyourmind__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 74px;
+  width: 100%;
+}
+
+.whatsonyourmind__inputButton {
+  width: 85%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f0f2f5;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.whatsonyourmind__inputButton:hover {
+  background-color: #dadde1;
+  cursor: pointer;
+}
+
+.whatsonyourmind__inputText {
+  margin-left: 20px;
+  color: #94969a;
+}
+
+.graySlab {
+  height: 2px;
+  background-color: #e4e6eb;
+}
+
+.whatsonyourmind__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 74px;
+  width: 100%;
+}
+
+.whatsonyourmind__icon {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsonyourmind__icon:hover {
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
