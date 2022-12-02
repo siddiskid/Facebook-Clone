@@ -1,11 +1,11 @@
 .whatsonyourmind {
   margin-top: 15px;
-  width: 95%;
+  width: 34vw;
   height: 150px;
   background-color: white;
   border-radius: 10px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 1vw;
+  padding-right: 1vw;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 

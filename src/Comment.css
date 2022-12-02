@@ -1,0 +1,65 @@
+.globalComment {
+  margin-top: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.globalComment__profilePic {
+  object-fit: contain;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.globalComment__comment {
+  width: 31vw;
+  margin-left: 0.5vw;
+  border-radius: 10px;
+  background-color: #f0f2f5;
+}
+
+.globalComment__commentUsername {
+  padding: 5px 0.5vw 5px 0.5vw;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.globalComment__commentContent {
+  padding: 0px 0.5vw 5px 0.5vw;
+  font-size: 13px;
+  color: #888888;
+}
+
+.globalComment__stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2px 0 0px 1vw;
+}
+
+.globalComment__statsButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.globalComment__commentLike {
+  font-size: 13px;
+  color: #65676b;
+}
+
+.globalComment__commentLike:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.globalComment__commentTime {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #9a9b9e;
+}
+
+.globalComment__likeCount {
+  font-size: 13px;
+  color: #65676b;
+}

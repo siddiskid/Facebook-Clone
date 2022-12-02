@@ -290,3 +290,145 @@ export const rooms = [
     username: "John",
   },
 ];
+
+export const posts = [
+  {
+    profilePic:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+
+    userName: "John Doe",
+    time: "yesterday",
+    caption:
+      "Hello today i went to hike in the bahamas mountains it was so pretty",
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKd6M-we25xyb3KE99k2XPLv7a4DI7al7Hg&usqp=CAU",
+    type: "long",
+    noOfLikes: "1.9K",
+    noOfComments: "296",
+    noOfShares: "22",
+    comments: [
+      {
+        author: "John Doe",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment:
+          "Hello I really like your post its very informative and children can learn a lot from it thank you so much uwu",
+        time: "12h",
+        noOfLikes: "153",
+      },
+    ],
+  },
+  {
+    profilePic:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+
+    userName: "John Doe",
+    time: "yesterday",
+    caption: "Hello today i saw this cute dog it was so pretty",
+    imageUrl: "https://picsum.photos/id/237/536/354",
+    type: "wide",
+    noOfLikes: "1.9K",
+    noOfComments: "296",
+    noOfShares: "22",
+    comments: [
+      {
+        author: "John Doe",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment:
+          "Hello I really like your post its very informative and children can learn a lot from it thank you so much uwu",
+        time: "12h",
+        noOfLikes: "153",
+      },
+      {
+        author: "Walter White",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment: "Hello that is a very pretty mountain for sure",
+        time: "11h",
+        noOfLikes: "121",
+      },
+      {
+        author: "John Green",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment: "Hello we should hangout sometime",
+        time: "10h",
+        noOfLikes: "178",
+      },
+    ],
+  },
+  {
+    profilePic:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+
+    userName: "John Doe",
+    time: "yesterday",
+    caption: "Hello today I played club penguin it was so fun",
+    imageUrl:
+      "https://bookriot.com/wp-content/uploads/2022/08/penguin-random-house-logo-1280x720.png",
+    type: "wide",
+    noOfLikes: "1.9K",
+    noOfComments: "296",
+    noOfShares: "22",
+    comments: [
+      {
+        author: "John Doe",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment:
+          "Hello I really like your post its very informative and children can learn a lot from it thank you so much uwu",
+        time: "12h",
+        noOfLikes: "153",
+      },
+      {
+        author: "Walter White",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment: "Hello that is a very pretty mountain for sure",
+        time: "11h",
+        noOfLikes: "121",
+      },
+      {
+        author: "John Green",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment: "Hello we should hangout sometime",
+        time: "10h",
+        noOfLikes: "178",
+      },
+    ],
+  },
+  {
+    profilePic:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+
+    userName: "John Doe",
+    time: "yesterday",
+    caption: "Hello today i saw this racoon it was so pretty",
+    imageUrl: "http://forums.pelicanparts.com/uploads26/kitten1593633307.jpg",
+    type: "long",
+    noOfLikes: "1.9K",
+    noOfComments: "296",
+    noOfShares: "22",
+    comments: [
+      {
+        author: "John Doe",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment:
+          "Hello I really like your post its very informative and children can learn a lot from it thank you so much uwu",
+        time: "12h",
+        noOfLikes: "153",
+      },
+      {
+        author: "Walter White",
+        authorProfilePic:
+          "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80",
+        comment: "Hello that is a very pretty mountain for sure",
+        time: "11h",
+        noOfLikes: "121",
+      },
+    ],
+  },
+];

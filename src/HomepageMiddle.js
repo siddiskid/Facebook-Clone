@@ -1,7 +1,9 @@
 import React from "react";
 import "./HomepageMiddle.css";
+import Post from "./Post";
 import StoriesReelsRooms from "./StoriesReelsRooms";
 import WhatsOnYourMind from "./WhatsOnYourMind";
+import { posts } from "./staticData";
 
 function HomepageMiddle() {
   return (
@@ -13,6 +15,20 @@ function HomepageMiddle() {
         }
         name={"John"}
       />
+      {posts.map((item) => (
+        <Post
+          profilePic={item.profilePic}
+          userName={item.userName}
+          time={item.time}
+          caption={item.caption}
+          imageUrl={item.imageUrl}
+          type={item.type}
+          noOfLikes={item.noOfLikes}
+          noOfComments={item.noOfComments}
+          noOfShares={item.noOfShares}
+          comments={item.comments}
+        />
+      ))}
     </div>
   );
 }

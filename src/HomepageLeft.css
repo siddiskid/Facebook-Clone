@@ -22,6 +22,8 @@
   margin-left: 10px;
   overflow-x: hidden;
   overflow-y: scroll;
+  position: fixed;
+  top: 65px;
 }
 
 .filler {

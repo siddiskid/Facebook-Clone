@@ -1,0 +1,158 @@
+@font-face {
+  font-family: helveticaNeueMed;
+  src: url("./fonts/HelveticaNeue\ Medium.ttf");
+}
+
+.post {
+  margin-top: 15px;
+  width: 36vw;
+  padding-top: 1vw;
+  padding-bottom: 2px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.post__details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 1vw 0 1vw;
+}
+
+.post__profilePic {
+  object-fit: contain;
+  width: 40px;
+  border-radius: 40px;
+}
+
+.post__authorTime {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post__author {
+  font-size: 18px;
+}
+
+.post__time {
+  font-size: 12px;
+  color: #9a9b9e;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.post__caption {
+  margin: 0 1vw 0 1vw;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #050505;
+  font-size: 16px;
+}
+
+.post__imageWrapper {
+  margin-top: 10px;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  width: 36vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.post__imageWide {
+  object-fit: contain;
+  width: 100%;
+}
+
+.post__imageLong {
+  object-fit: contain;
+  height: 100%;
+}
+
+.post__reactionStats {
+  margin: 8px 1vw 8px 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #898a8d;
+  font-size: 15px;
+}
+
+.post__comments {
+  margin-right: 10px;
+}
+
+.post__grayBarWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__grayBar {
+  width: 95%;
+  height: 2px;
+  background-color: #e5e5e5;
+}
+
+.post__reactionIcons {
+  margin: 3px 1vw 3px 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__reaction {
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+}
+
+.post__reaction:hover {
+  background-color: #f0f2f5;
+}
+
+.post__commentsHidden {
+  display: none;
+}
+
+.post__commentsShown {
+  display: block;
+}
+
+.post__comments {
+  margin: 10px 1vw 0 1vw;
+}
+
+.post__userAddComment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.post__commentPic {
+  object-fit: contain;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.post__commentInput {
+  margin-left: 0.5vw;
+  width: 30vw;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f2f5;
+  padding-left: 15px;
+  font-size: 14px;
+  outline: none;
+  color: #85878b;
+}
+
+.post__filler {
+  height: 2vh;
+}
