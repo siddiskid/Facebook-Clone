@@ -55,6 +55,7 @@
 .homepafeLeft__seeMoreButton:hover {
   background-color: #dadde1;
   transition-duration: 100ms;
+  cursor: pointer;
 }
 
 .grayBar {

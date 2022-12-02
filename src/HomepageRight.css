@@ -50,6 +50,7 @@
 
 .homepageRight__icon:hover {
   background-color: #dadde1;
+  cursor: pointer;
 }
 
 .grayBar {
@@ -66,4 +67,8 @@
   margin-left: 10px;
   color: #65676b;
   direction: ltr;
+}
+
+.homepageRight__text:hover {
+  cursor: default;
 }

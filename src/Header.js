@@ -21,11 +21,13 @@ function Header({ active }) {
     <div className="header">
       {/* Left side of the header */}
       <div className="header__left">
-        <img
-          className="header__leftLogo"
-          src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
-          alt=""
-        ></img>
+        <Link to="/">
+          <img
+            className="header__leftLogo"
+            src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+            alt=""
+          ></img>
+        </Link>
         <div className="header__leftSearch">
           <SearchIcon fontSize="medium" className="header__leftSearchIcon" />
           <input

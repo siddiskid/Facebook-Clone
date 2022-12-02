@@ -107,12 +107,25 @@
 }
 
 .post__reaction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 10px 50px 10px 50px;
   border-radius: 10px;
 }
 
 .post__reaction:hover {
   background-color: #f0f2f5;
+  cursor: pointer;
+}
+
+.post__iconImage {
+  object-fit: contain;
+  width: 20px;
+}
+
+.post__iconText {
+  padding-left: 10px;
 }
 
 .post__commentsHidden {

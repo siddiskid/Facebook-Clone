@@ -26,6 +26,7 @@
 
 .storiesreelsrooms__headerItems:hover {
   background-color: #f5f6f7;
+  cursor: pointer;
 }
 
 .text {

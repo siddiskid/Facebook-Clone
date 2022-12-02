@@ -129,6 +129,7 @@
 
 .header__rightIcon:hover {
   background-color: #ccd0d5;
+  cursor: pointer;
 }
 
 .header__rightProfilePic {

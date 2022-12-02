@@ -11,6 +11,7 @@
 .contact:hover {
   background-color: #dadde1;
   transition-duration: 100ms;
+  cursor: pointer;
 }
 
 .contact__icon {

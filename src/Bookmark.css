@@ -10,6 +10,7 @@
 .bookmark:hover {
   background-color: #dadde1;
   transition-duration: 100ms;
+  cursor: pointer;
 }
 
 .bookmark__icon {

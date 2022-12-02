@@ -48,11 +48,30 @@ function Post({
         <div className="post__grayBar"></div>
       </div>
       <div className="post__reactionIcons">
-        <div className="post__reaction like">Like</div>
-        <div className="post__reaction comment" onClick={openComments}>
-          Comment
+        <div className="post__reaction like">
+          <img
+            className="post__iconImage"
+            src="https://cdn-icons-png.flaticon.com/512/2107/2107956.png"
+            alt=""
+          ></img>
+          <span className="post__iconText">Like</span>
         </div>
-        <div className="post__reaction share">Share</div>
+        <div className="post__reaction comment" onClick={openComments}>
+          <img
+            className="post__iconImage"
+            src="https://aux.iconspalace.com/uploads/comment-icon-256.png"
+            alt=""
+          ></img>
+          <span className="post__iconText">Comment</span>
+        </div>
+        <div className="post__reaction share">
+          <img
+            className="post__iconImage"
+            src="https://cdn3.iconfinder.com/data/icons/basic-ui-elements-2-4-flat-style-36/512/Basic_UI_Elements_2.4_-_Flat_Style_-_36-48-512.png"
+            alt=""
+          ></img>
+          <span className="post__iconText">Share</span>
+        </div>
       </div>
       <div ref={commentRef} className="post__commentsHidden">
         <div className="post__grayBarWrapper">
